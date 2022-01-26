@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(5, 5, 68);
+    text-align: center;
+}
+.outdiv{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40%;
+    margin-top: 50px;
+}
+h1{
+    font-family: cursive;
+    font-size: 200px;
+    position: relative;
+    top: 30%;
+    color: white;
+}
+.green{
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    margin-right: 50px;
+}
+.red{
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+}
+.yellow{
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    margin-right: 50px;
+}
+.blue{
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
