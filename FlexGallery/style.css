@@ -1,0 +1,64 @@
+body{
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.outpanel{
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: relative;
+    color:blue;
+    height: 50em;
+    
+}
+.panel{
+    flex: 1;
+    transition: font-size 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: flex 2s cubic-bezier(0.19, 1, 0.22, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.panel.open{
+    flex: 5;
+}
+.panel1{
+    background-size: cover;
+    background-image: url(/WebDev/Img/3-idiots-memes-3.jpeg);
+}
+.panel2{
+
+    background-image: url(/WebDev/Img/download.jpeg);
+    background-size: cover;
+}
+.panel3{
+
+    background-image: url(/WebDev/Img/img2.jpeg);
+    background-size: cover;
+}
+.panel4{
+
+    background-image: url(/WebDev/Img/setup.jpeg);
+    background-size: cover;
+}
+.panel>*{
+    flex: 1 0 auto;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: center; */
+}
+.panel>*:first-child{
+    transform: translateY(-100%);
+}
+.panel>*:last-child{
+    transform: translateY(100%);
+}
+.panel.open-active>*:first-child{
+    transform: translateY(0);
+}
+.panel.open-active>*:last-child{
+    transform: translateY(0);
+}
