@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    text-align: center;
+}
+.clock{
+    border: 20px solid white;
+    border-radius: 50%;
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    top:25%;
+    left:45%;
+    background-color: rgb(195, 0, 255);
+   
+}
+.hand{
+    background-color: black;
+    height: 10px;
+    position:absolute;    
+    top:50%;
+    right:50%;
+    transform-origin: 100%;
+    /* left: 50%; */
+    /* transform: translateY(-3px); */
+    transform: rotate(90deg);
+    transition:all .05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, .58, 1);
+}
+.hour{
+    width: 20rem;
+}
+.minute{
+    width: 22.5rem;
+    transform: rotate(120deg);
+}
+.second{
+    width:25rem;
+}
