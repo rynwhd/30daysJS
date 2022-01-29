@@ -6,7 +6,7 @@ var Gaudio= new Audio("sounds/green.mp3");
 var Raudio= new Audio("sounds/red.mp3");
 var Yaudio= new Audio("sounds/yellow.mp3");
 var Baudio= new Audio("sounds/blue.mp3");
-var wrong= new Audio("sounds/wrong.mp3")
+var wrong= new Audio("sounds/wrong.mp3");
 $(document).keypress(function(){
     var x=event.key;
     if(event.key=='q')
